@@ -26,12 +26,18 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "url": "https://github.com/rymesaint/laravel-relation-joins.git",
+            "type": "git"
+        }
+    ],
     "require": {
-        "php": "^8.0",
-        "illuminate/support": "^7.0|^8.0|^9.0",
+        "php": "^8.1",
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0",
         "livewire/livewire": "^2.4.4",
         "maatwebsite/excel": "^3.1",
-        "reedware/laravel-relation-joins": "^2.4|^3.0"
+        "reedware/laravel-relation-joins": "dev-support-laravel-10"
     },
     "require-dev": {
         "laravel/legacy-factories": "^1.0.4",
